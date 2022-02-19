@@ -38,10 +38,21 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.hero {
-    background-image: url("./images/istockphoto-1185611008-612x612.jpeg")
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
 
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: inline;
+}
+
+.about p {
+    float: left;
+    width: 50%;
+}
+
+.about img {
+    width: 25%;
+    margin: 20px;
+    float: right;
 }
