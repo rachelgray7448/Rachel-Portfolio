@@ -11,6 +11,24 @@
     background-color: var(--secondary-color);
 }
 
+body {
+    margin: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
 section {
     padding: 60px;
 }
@@ -32,13 +50,13 @@ h2 {
 }
 
 .border {
-    border-style: solid;
-    border-top: 3px;
-    border-left: 0;
-    border-right: 0;
     text-align: center;
+}
+
+hr {
+    border-style: dashed;
     width: 50%;
-    margin-left: 475px;
+    margin: auto;
 }
 
 header h1 {
@@ -98,7 +116,6 @@ header nav ul li a:hover {
 .about img {
     width: 20%;
     border-radius: 10px;
-    margin-right: 200px;
 }
 
 .portrait {
@@ -112,33 +129,50 @@ header nav ul li a:hover {
     border-color: var(--tertiary-color);
 }
 
+
 .runbuddy {
     text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 1;
 }
 
 .runbuddy img {
-    width: 80%;
-    padding: 25px;
+    width: 100%;
     border-radius: 30px;
 }
 
 .robots {
     text-align: center;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .robots img {
-    width: 40%;
-    padding: 25px;
+    width: 100%;
+    height: 100%;
     border-radius: 30px;
 }
 
 .horiseon {
     text-align: center;
+    grid-column: 1 ;
+    grid-row: 2 ;
 }
 
 .horiseon img {
-    width: 40%;
-    padding: 25px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.swanson {
+    grid-column: 3 ;
+    grid-row: 1 / 3;
+}
+
+.swanson img {
+    width: 100%;
+    height: 100%;
     border-radius: 30px;
 }
 
@@ -189,7 +223,7 @@ header nav ul li a:hover {
         width: 80%;
         margin: auto;
     }
-  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -215,3 +249,8 @@ header nav ul li a:hover {
     }
 
 }
+
+
+
+
+
