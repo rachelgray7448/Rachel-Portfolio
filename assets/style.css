@@ -176,6 +176,15 @@ header nav ul li a:hover {
     border-radius: 30px;
 }
 
+/* .bword {
+    grid-column: 
+    grid-row: 
+}
+
+.bword img {
+    widht: 100%
+} */
+
 .contact {
     text-align: center;
 }
